@@ -8,7 +8,7 @@
 
  header .banner{
   background-image: url('./midia/banner.jpeg');
-	background-size:100% 100%;
+	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat:no-repeat;
 	width:100%;
@@ -53,4 +53,5 @@ section .container{
 video{
 	width:200px;
 	height:200px;
+	margin-top:30px;
 }
