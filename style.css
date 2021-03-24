@@ -1,0 +1,56 @@
+
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:arial,sans-serif,serif;
+ }
+
+ header .banner{
+  background-image: url('./midia/banner.jpeg');
+	background-size:100% 100%;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	width:100%;
+	height:400px;
+ }
+ header ul{
+	background-color:#333;
+	display:flex;
+	padding: 15px;
+	justify-content:center;
+	align-items:center;
+ }
+header ul li {
+	list-style:none;
+	color:white;
+}
+section{
+	color:white;
+	text-align:center;
+	background-color:#444;
+}
+section  .container img{
+	width:300px;
+	margin:40px;
+	height:300px;
+}
+section .container{
+	display:flex;
+	background-color:#ee99ff;
+	width:90%;
+	padding:20px;
+	height:100%;
+	margin:auto;
+	margin-top:50px;
+	flex-direction: row;
+	align-items:center;
+	align-content:space-around;
+	flex-grow:2;
+	margin-bottom:40px;
+	justify-content:space-around;
+}
+video{
+	width:200px;
+	height:200px;
+}
